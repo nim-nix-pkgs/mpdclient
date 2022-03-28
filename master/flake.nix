@@ -11,7 +11,6 @@
   inputs.src-mpdclient-master.ref   = "refs/heads/master";
   inputs.src-mpdclient-master.owner = "SolitudeSF";
   inputs.src-mpdclient-master.repo  = "mpdclient";
-  inputs.src-mpdclient-master.dir   = "";
   inputs.src-mpdclient-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

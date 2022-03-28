@@ -11,7 +11,6 @@
   inputs.src-mpdclient-v0_3_0.ref   = "refs/tags/v0.3.0";
   inputs.src-mpdclient-v0_3_0.owner = "SolitudeSF";
   inputs.src-mpdclient-v0_3_0.repo  = "mpdclient";
-  inputs.src-mpdclient-v0_3_0.dir   = "";
   inputs.src-mpdclient-v0_3_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
